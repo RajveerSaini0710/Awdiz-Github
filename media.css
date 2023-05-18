@@ -1,0 +1,66 @@
+@media only screen and (max-width:500px){
+
+    #left{
+        /* border: 2px solid red; */
+        width: 18%;
+        height:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25rem;
+
+    }
+
+#middle {
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo{
+    width:90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo img{
+margin-right: 0%;
+}
+
+#right{
+    /* border: 2px solid red; */
+    width: 18%;
+    font-size: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    #searchbar{
+        display: none;
+        width: 0%;
+    }
+
+    #navigation{
+        display: none;
+        width: 0%;
+    }
+
+    #plus{
+        display: none;
+        width: 0%;
+    }
+
+    #profile{
+        display: none;
+        width: 0%;
+    }
+}
