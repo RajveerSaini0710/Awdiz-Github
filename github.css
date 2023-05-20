@@ -64,6 +64,7 @@ margin-right: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #searchbar input{
@@ -71,8 +72,7 @@ margin-right: 10%;
     height: 50%;
     cursor: pointer;
     color: white;
-    font-size: 14rem;
-    font-weight: bold;
+    font-size: 16rem;
     font-family: arial;
     background-color: transparent;
     border-color: #bdbbbb;
@@ -80,6 +80,15 @@ margin-right: 10%;
     border-width: 1px;
     outline: none;
 }
+
+::placeholder{
+    color: rgb(185, 181, 181);
+    opacity: 1;
+}
+
+/* #searchbar input [placeholder],[placeholder]{
+    color: yellow !important;
+} */
 
 #navigation {
     /* border: 2px solid blue; */
